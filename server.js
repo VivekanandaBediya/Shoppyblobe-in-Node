@@ -6,9 +6,9 @@ app.use(express.json());
 
 connectDB();
 
-app.use("/products", require("./routes/productRoutes"));
-app.use("/cart", require("./routes/cartRoutes"));
-app.use("/", require("./routes/authRoutes"));
+app.use("/", require("./Routes/authRoutes"));
+app.use("/products", require("./Routes/productRoutes"));
+app.use("/cart", require("./Routes/cartRoutes"));
 
 app.listen(5100, () => {
     console.log("Server running on port 5100");
