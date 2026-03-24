@@ -1,1 +1,3 @@
-add readme file
+## Project : Shoppyblobe (backend)
+
+## GitHub link : 
